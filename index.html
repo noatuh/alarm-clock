@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alarm Clock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Alarm Clock</h1>
+	<div id="clock"></div>
+	<form>
+		<label for="time">Set Alarm:</label>
+		<input type="datetime-local" id="time" name="time">
+		<button type="button" onclick="setAlarm()">Set Alarm</button>
+		<button type="button" onclick="clearAlarm()">Clear Alarm</button>
+	</form>
+	<div id="alarmMessage"></div>
+
+	<script src="script.js"></script>
+</body>
+</html>
